@@ -1,0 +1,10 @@
+Module
+  name: bouncing_button
+  description: Handles random bouncing button
+  author: agreafel
+  website: 
+  sandboxed: true
+  scripts: [ bouncing_button ]
+  dependencies: [ client_terminal, game_interface ]
+  @onLoad: init()
+  @onUnload: terminate()
